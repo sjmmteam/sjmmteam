@@ -85,3 +85,26 @@ p,h1,h2,h3{
 .topic-section img{
   float: left;
 }
+
+@media screen and (max-width: 780px){
+  .header h1 {
+    font-size: 3rem;
+  }
+  .container {
+    width: 100%;
+    margin: 40px 0;
+  }
+  .topic-section {
+    text-align: center;
+  }
+  .topic-section img{
+    float: none;
+  }
+  .topic-section p {
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .img-section-1 {
+    margin: 0 auto;
+  }
+}
